@@ -3,7 +3,7 @@ import scala.io.StdIn
 
 object main
 {
-
+    //Вариант 3: Найти среднее арифметическое
     def recursiveAverage(elements: List[Double]): Double = {
         def average(elements: List[Double], size: Double): Double = elements match {
             case Nil => 0
@@ -23,7 +23,7 @@ object main
         average(elements, 0, 0)
     }
 
-
+  //Вариант 3: Инвертировать строку
   def recursiveReverse(str: String): String = {
     str match {
       case "" => ""
